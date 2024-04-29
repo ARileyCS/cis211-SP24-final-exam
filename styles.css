@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+header nav ul {
+    display:flex;
+    list-style: none;
+    gap: 40px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
